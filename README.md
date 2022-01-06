@@ -1,9 +1,11 @@
-# Hello!
+# Hello! &nbsp;
 
-## My name is **Amarjyoti Das**
+## My name is **Amarjyoti Das** &nbsp;
 
-## I'm a student in _Computer Software Application_
+## I'm a student of _Computer Software Application_ &nbsp;
 
-### My Projects:
+&nbsp;
 
-    - [Koala](koala/index.html)
+### **My Projects:** &nbsp;
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**1. [Koala](koala/index.html)**
