@@ -6,12 +6,12 @@
 
 &nbsp;
 
-### **My Projects:** &nbsp;
+- ### **My Projects:** &nbsp;
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**1. [Koala](koala/index.html)**
+  - **1. [Koala](koala/index.html)**
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**2. [Google](google/index.html)**
+  - **2. [Google](google/index.html)**
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**3. [GTN](gtn/index.html)**
+  - **3. [GTN](gtn/index.html)**
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**4. [QA](qa/index.html)**
+  - **4. [QA](qa/index.html)**
