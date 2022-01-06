@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda&display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Koala</title>
+  </head>
+  <body>
+    <h1 class="c">
+      <a href="" onclick="tim();return false" id="k">Koala</a>
+    </h1>
+    <h3>About the Koala</h3>
+    <div class="div1">
+      <img title="Koala" class="k" src="k.jpg" />
+      <p class="p1">
+        Though often called the koala "bear", this cuddly animal is not a bear
+        at all; it is a marsupial, or pouched mammal. After giving birth, a
+        female koala carries her baby in her pouch for about six months. When
+        the infant emerges, it rides on its mother's back or clings to her
+        belly, accompanying her everywhere until it is about a year old.
+      </p>
+      <h3 class="sc">Population</h3>
+      <p class="p2">
+        Results from the
+        <span class="AKF" title="Australian Koala Foundation">AKF's</span> Koala
+        Habitat Atlas deliver a grim picture of the status of Koala populations
+        in all regions studied so far. Available habitat was found to be
+        fragmented and degraded, and in many areas of suitable habitats, no
+        evidence of Koalas has been found. The AKF believes that the national
+        wild Koala population could be less than 80,000, a far cry from the
+        millions which were shot in the early part of the last century for their
+        fur.
+      </p>
+      <div class="div2">
+        <ul>
+          <li><b>Common Name :&nbsp</b> Koala</li>
+          <li><b>Scientific Name :&nbsp</b> Phascolarctos cinereus</li>
+          <li><b>Type :&nbsp</b> Mammals</li>
+          <li>
+            <b>Diet :&nbsp</b>
+            <span title="an animal that feeds on plants.">Herbivore</span>
+          </li>
+          <li><b>Average Life :&nbsp</b> 20 years</li>
+          <li><b>Size :&nbsp</b> 23.5 to 33.5 inches</li>
+          <li><b>Weight :&nbsp</b> 20 pounds</li>
+        </ul>
+      </div>
+    </div>
+    <div class="div3">
+      <form>
+        <table>
+          <tr>
+            <th colspan="2">Sign up to know more</th>
+          </tr>
+          <tr>
+            <td>Name :&nbsp</td>
+            <td>
+              <input type="text" name="name" id="name" placeholder="username" />
+            </td>
+          </tr>
+          <tr>
+            <td>Email :&nbsp</td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                placeholder="username@email.com"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Phone :&nbsp</td>
+            <td>
+              <input type="tel" name="phone" placeholder="9876543210" />
+            </td>
+          </tr>
+          <tr>
+            <td>Gender :&nbsp</td>
+            <td class="gender">
+              <input
+                type="radio"
+                id="m"
+                class="radio"
+                title="m"
+                name="gender"
+                value="male"
+              />
+              &nbsp;Male
+              <input
+                type="radio"
+                id="f"
+                class="radio"
+                title="f"
+                name="gender"
+                value="female"
+              />
+              &nbsp;Female
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input
+                type="checkbox"
+                id="check"
+                title="tc"
+                name="tc"
+                onclick="cc()"
+              />
+              <span class="term_butt">
+                I agree to the Terms and Conditions <br />
+                <input
+                  type="button"
+                  id="butt"
+                  value="Sign Up!"
+                  onclick="log(); return false"
+                />
+              </span>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <img title="koala population over year" class="kp" src="k_p.jpg" /><br />
+    <div class="footer">
+      <hr />
+      <p class="c">
+        Copyright protected content<span class="copy">&copy;</span>
+      </p>
+    </div>
+  </body>
+</html>
