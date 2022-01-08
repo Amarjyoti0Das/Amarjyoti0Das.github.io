@@ -8,8 +8,8 @@
 
 - ### **My Projects:** &nbsp;
 
-  - **1. [Koala](koala)**
+  - **1. [Guess The Number](gtn)**
 
   - **2. [Google](google)**
 
-  - **3. [GTN](gtn)**
+  - **3. [Koala](koala)**
