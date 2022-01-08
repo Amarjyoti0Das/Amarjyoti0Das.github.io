@@ -8,10 +8,8 @@
 
 - ### **My Projects:** &nbsp;
 
-  - **1. [Koala](koala/index.html)**
+  - **1. [Koala](koala)**
 
-  - **2. [Google](google/index.html)**
+  - **2. [Google](google)**
 
-  - **3. [GTN](gtn/index.html)**
-
-  - **4. [QA](qa/index.html)**
+  - **3. [GTN](gtn)**
