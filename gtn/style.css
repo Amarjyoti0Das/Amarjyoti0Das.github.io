@@ -1,0 +1,48 @@
+* {
+  max-height: 100vh;
+  font-size: 2.2vh;
+  font-family: cursive;
+}
+body {
+  height: 65vh;
+  background-image: linear-gradient(orange, white, green);
+  background-repeat: no-repeat;
+}
+
+div {
+  margin-top: 35vh;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
+}
+input {
+  text-align: center;
+  font-size: 2em;
+  width: 13vh;
+  height: 13vh;
+  outline: none;
+  border-style: dotted;
+  border-color: blue;
+  border-radius: 13vh;
+  background: radial-gradient(orange, white, green);
+}
+
+button {
+  font-size: 1em;
+  width: 10vh;
+  height: 5vh;
+  color: darkgreen;
+  border: none;
+  outline: none;
+  background-color: ghostwhite;
+  border-radius: 3vh;
+  transition: 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  color: darkorange;
+  background-color: lightgrey;
+  transition: 0.3s;
+}
