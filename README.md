@@ -1,12 +1,12 @@
-# Hello! &nbsp;
+# Hello!
 
-## My name is **Amarjyoti Das** &nbsp;
+## My name is **Amarjyoti Das**
 
-## I'm a student of _Computer Software Application_ &nbsp;
+## I'm a student of _Computer Software Application_
 
 &nbsp;
 
-- ### **My Projects:** &nbsp;
+- ### **My Projects:**
 
   - **1. [Guess The Number](gtn)**
 
