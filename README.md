@@ -13,3 +13,5 @@
   - **2. [Google](google)**
 
   - **3. [Koala](koala)**
+
+  - **4. [Java Claculator](https://trinket.io/java/1001cdc854?showInstructions=true)**
