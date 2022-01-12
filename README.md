@@ -8,10 +8,12 @@
 
 - ### **My Projects:**
 
-  - **1. [Guess The Number](gtn)**
+  - **1. [Google](google)**
 
-  - **2. [Google](google)**
+  - **2. [Koala](koala)**
 
-  - **3. [Koala](koala)**
+  - **3. [Guess The Number](gtn)**
 
-  - **4. [Java Claculator](https://trinket.io/java/1001cdc854?showInstructions=true)**
+  - **4. [Decimal & Binary Converter](dnb)**
+
+  - **5. [Java Claculator](https://trinket.io/java/1001cdc854?showInstructions=true)**
