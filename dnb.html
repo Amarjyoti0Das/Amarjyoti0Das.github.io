@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Decimal & Binary Converter</title>
+    <style>
+      @media screen and (prefers-color-scheme: light) {
+        :root {
+          background: #dadada;
+          color: #2c2c2c;
+        }
+      }
+      @media screen and (prefers-color-scheme: dark) {
+        :root {
+          background: #2c2c2c;
+          color: #dadada;
+        }
+      }
+      body {
+        background: inherit;
+        color: inherit;
+      }
+      table {
+        margin: auto;
+        margin-top: 30vh;
+        color: inherit;
+      }
+      tr,
+      td,
+      th {
+        border: 0.3vh;
+        border-color: inherit;
+        border-style: solid;
+        text-align: center;
+      }
+      input {
+        border: none;
+        font-size: 3vh;
+        font-style: oblique;
+        font-weight: bold;
+        background: none;
+        outline: none;
+        color: inherit;
+      }
+      #dnb {
+        font-size: 3vh;
+      }
+      #db,
+      #bd {
+        font-size: 2vh;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="2">
+          <input
+            type="button"
+            value="Decimal & Binary Converter"
+            id="dnb"
+            onclick="clc()"
+          />
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            value="Decimal"
+            name="con-to-d"
+            id="db"
+            onclick="to_d()"
+          />
+        </td>
+        <td>
+          <input title="dec" type="number" name="decimal" id="dn" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            value="Binary"
+            name="con-to-b"
+            id="bd"
+            onclick="to_b()"
+          />
+        </td>
+        <td><input title="bin" type="number" name="binary" id="bn" /></td>
+      </tr>
+    </table>
+    <script>
+      function to_d() {
+        var x = document.getElementById("bn").value;
+        var z = "";
+        z = parseInt(x, 2).toString(10);
+        document.getElementById("dn").value = z;
+      }
+      function to_b() {
+        var x = document.getElementById("dn").value;
+        var z = "";
+        z = (x >>> 0).toString(2);
+        document.getElementById("bn").value = z;
+      }
+      function clc() {
+        z = "";
+        document.getElementById("dn").value = z;
+        document.getElementById("bn").value = z;
+      }
+    </script>
+  </body>
+</html>
