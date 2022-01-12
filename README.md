@@ -1,4 +1,4 @@
-# Hello&excl;
+# Hello&#33;
 
 ## My name is **Amarjyoti Das**
 
