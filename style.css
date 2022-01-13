@@ -3,10 +3,10 @@
   font-family: "Nova Round";
 }
 body {
-  margin-top: 5vmax;
-  margin-left: 3vmax;
-  margin-right: 3vmax;
-  margin-bottom: 1vmax;
+  margin-top: 10vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 1vh;
   max-height: 100vh;
   max-width: 100vw;
   font-size: 1em;
@@ -16,14 +16,16 @@ body {
 .heading {
   display: grid;
   place-content: center;
-  min-width: 58vw;
-  max-width: 58vh;
+  min-width: 50vw;
+  max-width: 50vh;
+  margin-left: 8vw;
+  margin-right: 3vw;
 }
 .projects {
   float: left;
   width: 100%;
   text-align: center;
-  margin-top: 5vmax;
+  margin-top: 8vh;
   visibility: hidden;
   animation: hide 0s 2.2s forwards;
 }
@@ -56,13 +58,19 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+a:hover {
+  color: inherit;
+}
 .buttons {
   visibility: hidden;
   animation: hide 0s 2.4s forwards;
 }
-.btn {
+.w3-btn {
   animation-delay: 2.4s;
   animation-duration: 1.5s;
+  border: 0.15em solid darkgrey;
+  width: 10vh;
+  border-radius: 3rem;
 }
 .footer {
   margin-top: -3vh;
@@ -91,10 +99,23 @@ a {
 @media screen and (prefers-color-scheme: dark) {
   :root,
   body,
-  .btn,
+  .w3-btn,
   .card,
   .card-body {
-    background: #2c2c2c;
-    color: #dadada;
+    background-color: #252525;
+    color: lightgrey;
+  }
+  .w3-btn {
+    box-shadow: white;
+  }
+}
+@media screen and (prefers-color-scheme: light) {
+  :root,
+  body,
+  .w3-btn,
+  .card,
+  .card-body {
+    background-color: ghostwhite;
+    color: #252525;
   }
 }
