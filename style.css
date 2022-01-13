@@ -1,0 +1,72 @@
+* {
+  cursor: default;
+  font-family: "Nova Round", cursive;
+}
+body {
+  margin-top: 5vmax;
+  margin-left: 3vmax;
+  margin-right: 3vmax;
+  margin-bottom: 1vmax;
+  max-height: 100vh;
+  max-width: 100vw;
+  font-size: 1em;
+}
+.heading {
+  display: grid;
+  place-content: center;
+  min-width: 58vw;
+  max-width: 58vh;
+}
+.div_mp {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 5vmax;
+}
+.p_mp {
+  font-size: 2.2vh;
+}
+span.com {
+  animation-duration: 0.5s;
+}
+span.sof {
+  animation-duration: 0.8s;
+}
+span.app {
+  animation-duration: 1s;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer {
+  margin-top: -3vh;
+}
+.blink {
+  animation: blink 1s linear infinite;
+}
+.btn {
+  animation: fade 1s linear;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  :root,
+  body,
+  .card,
+  .card-body {
+    background: #2c2c2c;
+    color: #dadada;
+  }
+}
