@@ -19,40 +19,56 @@ body {
   min-width: 58vw;
   max-width: 58vh;
 }
-.div_mp {
+.projects {
   float: left;
   width: 100%;
   text-align: center;
   margin-top: 5vmax;
+  visibility: hidden;
+  animation: hide 0s 2.2s forwards;
 }
-.p_mp {
-  font-size: 2.2vh;
+.mp {
+  animation: fade 1.5s linear;
 }
+.mp {
+  animation-delay: 2.2s;
+}
+.w3-animate-top,
+.w3-animate-bottom,
+.w3-animate-left,
 .w3-animate-right {
   animation-delay: 1s;
 }
-span.com {
-  animation-duration: 0.5s;
-}
-span.sof {
+.name {
   animation-duration: 0.8s;
 }
-span.app {
-  animation-duration: 1s;
+.comp {
+  animation-duration: 1.5s;
+}
+.soft {
+  animation-duration: 1.7s;
+}
+.appl {
+  animation-duration: 1.8s;
 }
 a {
   font-size: 1.8vh;
   text-decoration: none;
   cursor: pointer;
 }
+.buttons {
+  visibility: hidden;
+  animation: hide 0s 2.4s forwards;
+}
+.btn {
+  animation-delay: 2.4s;
+  animation-duration: 1.5s;
+}
 .footer {
   margin-top: -3vh;
 }
 .blink {
   animation: blink 1s linear infinite;
-}
-.btn {
-  animation: fade 1s linear;
 }
 @keyframes blink {
   50% {
@@ -75,6 +91,7 @@ a {
 @media screen and (prefers-color-scheme: dark) {
   :root,
   body,
+  .btn,
   .card,
   .card-body {
     background: #2c2c2c;
