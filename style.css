@@ -36,6 +36,7 @@ span.app {
   animation-duration: 1s;
 }
 a {
+  font-size: 1.8vh;
   text-decoration: none;
   cursor: pointer;
 }
