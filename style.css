@@ -82,6 +82,8 @@ a:hover {
 }
 svg {
   visibility: visible;
+  position: relative;
+  z-index: -1;
 }
 #Ellipse1 {
   animation: loading 1.47s linear;
