@@ -111,19 +111,19 @@ svg {
     transform: translate(30%, 1%);
   }
   40% {
-    transform: translate(40%, -8%);
+    transform: translate(41%, -1%);
   }
-  45% {
-    transform: translate(45%, -13%);
+  44% {
+    transform: translate(45%, -18%);
   }
   50% {
-    transform: translate(50%, -20%);
+    transform: translate(50%, -25%);
   }
-  55% {
-    transform: translate(55%, -13%);
+  56% {
+    transform: translate(55%, -18%);
   }
   60% {
-    transform: translate(60%, -8%);
+    transform: translate(59%, -1%);
   }
   70% {
     transform: translate(70%, 1%);
