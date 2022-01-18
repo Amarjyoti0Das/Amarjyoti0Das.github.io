@@ -31,8 +31,6 @@ body {
 }
 .mp {
   animation: fade 1.1s linear;
-}
-.mp {
   animation-delay: 3.8s;
 }
 .w3-animate-top,
@@ -42,7 +40,15 @@ body {
   animation-delay: 2.2s;
 }
 .name {
-  animation-duration: 1s;
+  animation-duration: 0.8s;
+}
+#name {
+  background: linear-gradient(to right, #00afff, #00ff96, #ffc700, #00afff);
+  background-size: 200%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: colorful 3s linear infinite;
 }
 .comp {
   animation-duration: 1.5s;
@@ -76,9 +82,15 @@ a:hover {
 }
 .footer {
   margin-top: -3vh;
+  visibility: hidden;
+  animation: hide 0s 5.5s forwards;
+}
+.footer a {
+  animation: fade 1.1s linear;
+  animation-delay: 5.5s;
 }
 .blink {
-  animation: blink 1s linear;
+  animation: blink 1s linear infinite;
 }
 svg {
   visibility: visible;
@@ -132,9 +144,9 @@ svg {
     transform: translate(105%, 0%);
   }
 }
-@keyframes blink {
-  50% {
-    opacity: 0;
+@keyframes colorful {
+  to {
+    background-position: -200%;
   }
 }
 @keyframes fade {
@@ -143,6 +155,11 @@ svg {
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
   }
 }
 @keyframes hide {
