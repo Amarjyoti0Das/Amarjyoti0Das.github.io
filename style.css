@@ -3,7 +3,7 @@
   font-family: "Nova Round";
 }
 body {
-  margin-top: 10vh;
+  margin-top: 15vmin;
   margin-left: 1vw;
   margin-right: 1vw;
   margin-bottom: 1vh;
@@ -22,7 +22,7 @@ body {
   margin-right: 3vw;
 }
 .hi {
-  font-size: 4.4vh;
+  font-size: 4.1vh;
 }
 .myname {
   font-size: 3.1vh;
