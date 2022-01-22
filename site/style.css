@@ -8,8 +8,6 @@ body {
   margin-left: 1vw;
   margin-right: 1vw;
   margin-bottom: 1vh;
-  max-height: 100vh;
-  max-width: 100vw;
   font-size: 1em;
   visibility: hidden;
   animation: hide 0s 2.2s forwards;
