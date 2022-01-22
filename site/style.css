@@ -4,7 +4,7 @@
   font-family: "Nova Round";
 }
 body {
-  margin-top: 15vmin;
+  margin-top: 11vh;
   margin-left: 1vw;
   margin-right: 1vw;
   margin-bottom: 1vh;
@@ -87,6 +87,7 @@ a:hover {
 .w3-btn {
   font-size: 1.8vh;
   width: 13vh;
+  height: 5vh;
   min-width: 5.5em;
   max-width: 10em;
   border: 0.15em solid darkgrey;
@@ -95,7 +96,7 @@ a:hover {
   animation-duration: 1.5s;
 }
 .card a {
-  font-size: 1.1em;
+  font-size: 2vh;
   line-height: 2.2em;
 }
 .footer {
