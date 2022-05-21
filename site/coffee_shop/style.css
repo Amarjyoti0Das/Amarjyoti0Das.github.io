@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/coffee_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    color: #4e342d;
+    background-color: #eaeaea;
+    mix-blend-mode: hard-light;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    color: #4e342d;
+    margin-top: 0.3em;
+    margin-left: 1em;
+    margin-right: 0em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.coffee_logo {
+    width: 3.8em;
+    vertical-align: middle;
+    margin-top: -0.55em;
+}
+
+.nav {
+    font-size: 1.1em;
+    margin-top: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 0.85em;
+}
+
+.nav span {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    cursor: pointer;
+}
+
+.buy_now {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.buy_now button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #4e342d;
+    background-color: bisque;
+    border: none;
+    width: 8em;
+    height: 4.1em;
+    cursor: pointer;
+}
+
+.motto {
+    display: grid;
+    place-content: center;
+    margin-top: 15em;
+    color: ghostwhite;
+    font-family: monospace;
+}
+
+@media (orientation:landscape) {
+    body {
+        font-size: 1vw;
+    }
+}
+
+@media (orientation:portrait) {
+    body {
+        font-size: 3vw;
+    }
+
+    .buy_now button {
+        background-color: transparent;
+        font-weight: 800;
+    }
+
+    .nav {
+        margin-top: 3.5em;
+    }
+
+    .nav span {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        cursor: pointer;
+    }
+}

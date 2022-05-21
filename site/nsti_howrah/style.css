@@ -1,0 +1,209 @@
+body {
+    font-family: Segoe UI, sans-serif;
+    background-color: snow;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+
+.header .img1 {
+    width: 2.4em;
+}
+
+.header .p1 {
+    width: 15em;
+    font-size: 0.88em;
+    font-weight: bold;
+    padding-left: 0.3em;
+    color: mediumblue;
+    border-right: 2px solid black;
+}
+
+.header .img2 {
+    width: 6.4em;
+    margin-left: 1em;
+}
+
+.header .p2 {
+    width: 25em;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-left: 0.3em;
+    color: mediumblue;
+    border-right: 2px solid black;
+}
+
+.header .p2 .kol {
+    font-size: 0.88em;
+}
+
+.header .img3 {
+    width: 6.9em;
+    margin-left: 1em;
+}
+
+.nav {
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+    background-color: midnightblue;
+    font-size: 0.85em;
+    font-weight: 500;
+    height: 2.2em;
+    color: ghostwhite;
+}
+
+.nav span {
+    display: grid;
+    height: 100%;
+    place-content: center;
+    border-right: 1px solid white;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    transition: 0.5s;
+}
+
+.nav span:hover {
+    cursor: pointer;
+    background-color: firebrick;
+    transition: 0.3s;
+}
+
+.notice {
+    display: block;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-top: 1em;
+    width: 30em;
+    height: 7.5em;
+    line-height: 1.58em;
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
+    border: 1px solid lightgray;
+    border-radius: 0.3em;
+}
+
+.notice a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.notice a:hover {
+    text-decoration: underline;
+    color: mediumblue;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1.1fr 2.25fr;
+}
+
+.list {
+    margin-left: 18em;
+    text-align: center;
+    width: 18em;
+    font-size: 0.88em;
+    font-weight: 500;
+}
+
+.list ul li {
+    display: grid;
+    place-content: center;
+    list-style-type: none;
+    padding-bottom: 0.55em;
+    border-bottom: 0.1em solid lightgrey;
+    background-color: white;
+    height: 1.55em;
+    transition: 0.5s;
+}
+
+.list ul li:hover {
+    cursor: pointer;
+    color: firebrick;
+    background-color: lightgrey;
+    transition: 0.1s;
+}
+
+.list ul li:first-child {
+    background-color: firebrick;
+    color: white;
+}
+
+.list ul li:first-child:hover {
+    background-color: midnightblue;
+    transition: 0.1s;
+}
+
+
+.clg {
+    width: 37em;
+}
+
+.about {
+    width: 37em;
+    margin-top: 0.88em;
+    text-align: justify;
+    border-left: 0.13em solid firebrick;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.about .para_head {
+    font-size: 1em;
+}
+
+.about .para {
+    font-size: 0.8em;
+    line-height: 2.2em;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: firebrick;
+    color: white;
+    padding-left: 11em;
+    padding-right: 11em;
+}
+
+.footer ul li {
+    list-style-type: none;
+    margin-bottom: 0.3em;
+    line-height: 2.69em;
+}
+
+@media (orientation:landscape) {
+    body {
+        font-size: 1.96vmin;
+    }
+}
+
+@media (orientation:portrait) {
+    body {
+        font-size: 3.8vmin;
+    }
+
+    .header .p1,
+    .header .p2 {
+        border: none;
+    }
+
+    .nav {
+        height: auto;
+    }
+}
