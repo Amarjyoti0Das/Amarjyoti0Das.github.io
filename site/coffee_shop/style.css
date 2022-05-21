@@ -14,7 +14,7 @@ header {
     top: 0;
     width: 100vw;
     color: #4e342d;
-    background-color: #eaeaea;
+    background-color: #eaeaeaea;
     mix-blend-mode: hard-light;
 }
 
@@ -51,6 +51,10 @@ header {
     cursor: pointer;
 }
 
+.nav span:hover {
+    color: orangered;
+}
+
 .buy_now {
     position: absolute;
     top: 0;
@@ -69,6 +73,11 @@ header {
     cursor: pointer;
 }
 
+.buy_now button:hover {
+    color: darkorange;
+    mix-blend-mode: multiply;
+}
+
 .motto {
     display: grid;
     place-content: center;
@@ -79,13 +88,13 @@ header {
 
 @media (orientation:landscape) {
     body {
-        font-size: 1vw;
+        font-size: 2vmin;
     }
 }
 
 @media (orientation:portrait) {
     body {
-        font-size: 3vw;
+        font-size: 3vmin;
     }
 
     .buy_now button {
